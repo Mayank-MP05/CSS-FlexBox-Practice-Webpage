@@ -26,7 +26,8 @@ body{
     padding: 0px 10px; 
     display: inline;
     font-size: 25px;
-    color: white;
+    color: black;
+    padding: 10px 15px;
     text-decoration:bold;
 }
 
@@ -86,7 +87,7 @@ body{
 }
 
 .card3{
-    width: 100%;
+    width: 33%;
     height: 25px;
     background-color: rgb(1, 36, 1);
     text-decoration: bold;
