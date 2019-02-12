@@ -72,3 +72,28 @@ body{
 }
 
 /* Footer Styling */
+
+.foot{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+}
+
+.card3{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(1, 36, 1);
+    text-decoration: bold;
+}
+
+.card3:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+/* Styling Finish */
