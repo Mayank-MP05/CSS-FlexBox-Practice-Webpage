@@ -1,0 +1,31 @@
+/* Navbar Styling */
+
+.nav{
+    background-color: black;
+    height: auto;
+}
+
+.nav img{
+    float: left;
+    width: 100px;
+    padding: 10px 20px;
+}
+
+.nav ul{
+    padding: 10px 0px;
+    display: inline;
+    list-style: none;
+}
+
+.nav ul li{
+    padding: 0px 10px; 
+    display: inline;
+    font-size: 17px;
+    color: white;
+    text-decoration:bold;
+}
+
+.nav ul li:hover{
+    background-color: rgb(161, 236, 161);
+    color:black;
+}
