@@ -1,3 +1,7 @@
+body{
+    text-align: center;
+    align-items: center;
+}
 /* Navbar Styling */
 
 .nav{
@@ -15,12 +19,13 @@
     padding: 10px 0px;
     display: inline;
     list-style: none;
+    float: right;
 }
 
 .nav ul li{
     padding: 0px 10px; 
     display: inline;
-    font-size: 17px;
+    font-size: 25px;
     color: white;
     text-decoration:bold;
 }
@@ -29,3 +34,41 @@
     background-color: rgb(161, 236, 161);
     color:black;
 }
+
+/* Product 3*2 Card */
+
+.product-1 , .product-2 , .product-3{
+    display: flex;
+    width:100%;
+    margin: 15px 10px;
+}
+
+.card1{
+    width: 10%;
+    height: auto;
+    flex: 1;
+    order: auto;
+    text-align: center;
+    box-shadow:inset 0 0 10px #000000;
+    margin: 2px 4px
+}
+
+.card1 img{
+    width: 100%;
+    height: auto;
+}
+
+/* Board Of Directors */
+
+.bod{
+    display: flex;
+    width: 100%;
+}
+
+.card2{
+    width:20%;
+    border: 3px
+    box-shadow:inset 0 0 10px #000000;
+}
+
+/* Footer Styling */
